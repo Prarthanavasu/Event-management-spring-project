@@ -1,4 +1,4 @@
-package com.spring.Eventmanagement.dto;
+package com.spring.Eventmanagement.Dto;
 
 import lombok.Data;
 import java.time.LocalDate;

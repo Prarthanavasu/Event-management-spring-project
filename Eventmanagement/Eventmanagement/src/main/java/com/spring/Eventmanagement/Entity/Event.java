@@ -8,18 +8,19 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.OneToMany;
 import lombok.Data;
+
 @Entity
 @Data
-public class User {
+public class Event {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int userId;
-    private String name;
-    private String email;
-    private String password;
-    private long contactNumber;
+    private Long eventId;
+    private String eventName;
+    private String description;
+    private Double price;
+    private String eventType; // Wedding, Birthday ,party,concert
 
-    @OneToMany(mappedBy = "user")
+    @OneToMany(mappedBy = "event")
     private List<Booking> bookings;
 }

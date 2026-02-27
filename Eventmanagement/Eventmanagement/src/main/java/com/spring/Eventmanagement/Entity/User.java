@@ -1,4 +1,4 @@
-package com.spring.Eventmanagement.entity;
+package com.spring.Eventmanagement.Entity;
 
 import java.util.List;
 

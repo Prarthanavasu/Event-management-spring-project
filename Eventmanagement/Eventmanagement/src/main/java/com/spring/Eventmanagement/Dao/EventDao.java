@@ -1,5 +1,5 @@
 package com.spring.Eventmanagement.dao;
 
-public class UserDao {
+public class EventDao {
 
 }
