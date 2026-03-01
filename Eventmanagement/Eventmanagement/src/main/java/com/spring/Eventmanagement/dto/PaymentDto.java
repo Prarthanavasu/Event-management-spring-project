@@ -1,5 +1,5 @@
 package com.spring.Eventmanagement.dto;
 
-public class UserResponseDto {
+public class PaymentDto {
 
 }

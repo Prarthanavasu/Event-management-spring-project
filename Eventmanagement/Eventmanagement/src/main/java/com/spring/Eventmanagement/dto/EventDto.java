@@ -1,9 +1,13 @@
 package com.spring.Eventmanagement.dto;
 
-public class EventDto {
-	private long id;
-	private String eventname;
-	private Double basePrice;
-	
+import lombok.Data;
 
+@Data
+public class EventDto {
+	private int eventId;
+	 private String eventName;
+	 private String description;
+	 private Double price;
+	 private String eventType;
 }
+
